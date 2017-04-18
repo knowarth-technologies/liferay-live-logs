@@ -22,9 +22,7 @@ The Plug-in can be directly accessed through Control Panel. Also, it does not re
 ## Deployment steps
 
 1.	Stop the Liferay server
-2.	Copy the below jars to the deploy directory of Liferay server
-      * log.viewer.portlet-1.0.0.jar
-      * com.liferay.websocket.whiteboard-1.0.0.jar
+2.	Copy the log.viewer.portlet.jar to the deploy directory of Liferay server
 3.	Add below property in portal-ext file.
 ```
     module.framework.system.packages.extra=\
