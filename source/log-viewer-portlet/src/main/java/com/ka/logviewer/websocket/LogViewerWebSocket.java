@@ -58,9 +58,7 @@ public class LogViewerWebSocket extends Endpoint{
 		Enumeration appenders = appLog.getAllAppenders();
 		while (appenders.hasMoreElements()) {
 			Appender apndr = (Appender)appenders.nextElement();
-			System.out.println("APPENDER CLASS IS : " + apndr.getClass().getName());
 			if(apndr.getClass().getName() == LogAppender.class.getName()) {
-				System.out.println("Removing:");
 				appLog.removeAppender(lAppender);
 			}
 		}

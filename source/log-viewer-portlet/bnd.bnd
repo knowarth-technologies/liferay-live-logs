@@ -1,2 +1,3 @@
 Bundle-SymbolicName: log.viewer.portlet
 Bundle-Version: 1.0.0
+Include-Resource:@com.liferay.websocket.whiteboard-1.0.0.jar
