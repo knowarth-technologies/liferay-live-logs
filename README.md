@@ -19,34 +19,12 @@ The Plug-in can be directly accessed through Control Panel. Also, it does not re
 5.	Previous/Next occurrences in case of multiple find while searching
 6.	Supports for http & https
 
-## Deployment steps
+### Environment
 
-1.	Stop the Liferay server
-2.	Copy the log.viewer.portlet.jar to the deploy directory of Liferay server
-3.	Add below property in portal-ext file.
-```
-    module.framework.system.packages.extra=\
-    com.ibm.crypto.provider,\
-    com.ibm.db2.jcc,\
-    com.microsoft.sqlserver.jdbc,\
-    com.mysql.jdbc,\
-    com.p6spy.engine.spy,\
-    com.sun.security.auth.module,\
-    com.sybase.jdbc4.jdbc,\
-    oracle.jdbc,\
-    org.postgresql,\
-    org.apache.naming.java,\
-    org.hsqldb.jdbc,\
-    org.mariadb.jdbc,\
-    sun.misc,\
-    sun.net.util,\
-    sun.security.provider,\
-    javax.websocket;version="1.1.0",\
-    javax.websocket.server;version="1.1.0"
-```
-4.	Start the server.
+* Server: Liferay CE 7.0 GA4
+* Java:   JDK 1.8
 
-By following these easy steps of Plug-in installation, you will be able to view all the system logs as per your convenience and server requirements. 
+By deploying this plugin you will be able to view all the system logs as per your convenience and server requirements. 
 
 ## Support
 Please feel free to contact us on contact@knowarth.com for any issue/suggestions. You can report issues through [Github issues](https://github.com/knowarth-technologies/liferay-live-logs/issues)
