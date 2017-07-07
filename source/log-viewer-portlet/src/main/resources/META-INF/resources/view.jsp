@@ -222,7 +222,6 @@ $(".fa.icon-angle-down").on('click',function(e){
        	$("#<portlet:namespace/>start").attr('disabled',true);
      }
      function onMessage(evt) {
-    	 debugger
         $("#log-container").append("<div>"+evt.data+"</div>");
         if(allowScrolling){
         	$("#log-container").animate({scrollTop: $('#log-container').prop("scrollHeight")}, 500);
